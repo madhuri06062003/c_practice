@@ -21,7 +21,7 @@ int main() {
     }
     for(i=0;i<row;i++) {
         for(j=0;j<col;j++) {
-            sub[i][j]=matrix1[i][j]+matrix2[i][j];
+            sub[i][j]=matrix1[i][j]-matrix2[i][j];
         }
         printf("Sub of matrix\n");
         for(i=0;i<row;i++) {
