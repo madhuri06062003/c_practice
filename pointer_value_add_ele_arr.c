@@ -5,6 +5,7 @@ int main() {
     int i;
     
     printf("Values and add of ele \n");
+    printf("Using pointer notation :\n");
     for(i=0;i<5;i++) {
         printf("Element %d = %d address = %p\n",i,*(ptr+i),(void*)(ptr+i));
 
