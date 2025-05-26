@@ -7,8 +7,12 @@ int main() {
     printf("Enter str : ");
     fgets(str,sizeof(str),stdin);
 
-    str[strcspn(str,"\n")]='\0';
-    int len =strlen(str);
+    size_t len =strlen(str);
+    if(len > 0 && str[len-1]=='\n') {
+        str[len-1]='\0';
+    }
+
+     len =strlen(str);
 
     for(i=0;i<len-1;i++) {
         for(j=0;j<len-i-1;j++) {
