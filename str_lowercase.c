@@ -12,7 +12,7 @@ int main() {
     str[strcspn(str,"\n")]=0;
 
     for(i=0;str[i]!='\0';i++) {
-        str[i]=tolowe(str[i]);
+        str[i]=tolower(str[i]);
     }
     printf("Lowecase %s\n",str);
     return 0;
