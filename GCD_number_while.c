@@ -10,6 +10,6 @@ int main() {
         b=a%b;
         a=temp;
     }
-    printf("Enter GCD %d\n",a);
+
     return 0;
 }
