@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main() {
     int num1,num2,sum;
-    int i;
     printf("Enter num1 :");
     scanf("%d",&num1);
     printf("Enter num2 :\n");
