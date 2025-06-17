@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
     int num1,num2,sum;
-    int i=0;
+    int i;
     printf("Enter num1 :");
     scanf("%d",&num1);
     printf("Enter num2 :\n");
@@ -10,9 +10,9 @@ int main() {
     sum = num1+num2;
     printf("Enter sum of numbers%d\n",sum);
 
-    if(i%2==0) {
+    if(sum%2==0) {
         printf("Even number");
-    }else{
+    }else {
         printf("odd number");
     }
     return 0;
